@@ -8,7 +8,7 @@ export default function App() {
     <div className="main-container">
       <Heading />
       <Content />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
