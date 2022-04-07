@@ -3,42 +3,54 @@ export default [{
     "img": "https://imgur.com/8EePucn.png",
     "name": "Tic Tac Toe",
     "description":"Classic Tic Tac Toe Game built on vanilla javascript. Play against one of your friends!",
-    "type":"javascript"
+    "type":"javascript",
+    "live": "https://norfkorean.github.io/JS-Tic-Tac-Toe-Project/",
+    "repo":"https://github.com/norfkorean/JS-Tic-Tac-Toe-Project"
 },
 {
     "id": 1,
     "img": "https://imgur.com/nH4r7mP.png",
     "name": "To-Do List",
     "description":"A To-Do List so you can make a list of tasks that needs to be done. Write short descrioption, set due date, and check for priority!",
-    "type":"javascript"
+    "type":"javascript",
+    "live": "https://jiparktodolistproject.netlify.app/",
+    "repo":"https://github.com/norfkorean/JS-ToDo-List-Project"
 },
 {
     "id": 2,
     "img": "https://imgur.com/JrLE6K2.png",
     "name": "Meme Generator",
     "description":"Meme Generator so yo can make your own funny Memes! Duh!",
-    "type":"react"
+    "type":"react api",
+    "live": "https://jipark-react-memegenerator.netlify.app/",
+    "repo":"https://github.com/norfkorean/react-memegenerator-project"
 },
 {
     "id": 3,
     "img": "https://imgur.com/0Uxfoas.png",
     "name": "CV Application",
     "description":"A simple resume creator. Write your really bad resume template on here ;)",
-    "type":"react"
+    "type":"react",
+    "live": "https://jipark-cvapplication.netlify.app/",
+    "repo":"https://github.com/norfkorean/react-cvapplication-project"
 },
 {
     "id": 4,
     "img": "https://imgur.com/TbRdRKZ.png",
     "name": "My Travel Journal",
     "description":"This was to practice my react skills I learned in my first week of learning Reactjs!",
-    "type":"react practice"
+    "type":"react practice",
+    "live": "https://jipark-react-traveljournal.netlify.app/",
+    "repo":"https://github.com/norfkorean/react-traveljournal-project"
 },
 {
     "id": 5,
     "img": "https://imgur.com/JV22aHA.png",
     "name": "My First React Webpages",
     "description":"This was to practice my react skills I learned in my first week of learning Reactjs!",
-    "type":"react practice"
+    "type":"react practice",
+    "live": "https://jipark-reactfirstwebpage.netlify.app",
+    "repo":"https://github.com/norfkorean/react-firstwebpage"
 },
 {
     "id": 6,
@@ -125,7 +137,7 @@ export default [{
     "id": 15,
     "img": "https://imgur.com/PY0fjGk.png",
     "name": "Grocery List",
-    "description":"This was part of my javascript practice, but one of the harder ones to accomplish",
+    "description":"This was part of my javascript practices, but one of the harder ones to accomplish",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/JS-Grocery-List-Project/",
     "repo":"https://github.com/norfkorean/JS-Grocery-List-Project"
@@ -143,7 +155,7 @@ export default [{
     "id": 17,
     "img": "https://imgur.com/3cMDeUK.png",
     "name": "Countdown Timer",
-    "description":"This was one of the corny javascript practice, but any practice improves your skill in coding",
+    "description":"This practice was to try using date() functions to grab the current date and time.",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/Countdown-Timer-Project/",
     "repo":"https://github.com/norfkorean/Countdown-Timer-Project"
@@ -206,7 +218,7 @@ export default [{
     "id": 24,
     "img": "https://imgur.com/3ZQHwKk.png",
     "name": "Our Reviews",
-    "description":"This project is to work on my javascript function and event listener skill.",
+    "description":"This practice is to work on my javascript function and event listener skill.",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/Our-Reviews-Project/",
     "repo":"https://github.com/norfkorean/Our-Reviews-Project"
@@ -216,7 +228,7 @@ export default [{
     "id": 25,
     "img": "https://imgur.com/sENiJDB.png",
     "name": "Simple Counter",
-    "description":"This project was to improve on my javascript fundamentals",
+    "description":"This practice was to improve on my javascript fundamental on changing the values of a variable.",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/Simple-Counter/",
     "repo":"https://github.com/norfkorean/Simple-Counter"
@@ -225,7 +237,7 @@ export default [{
     "id": 26,
     "img": "https://imgur.com/feXDzQf.png",
     "name": "Color Changer",
-    "description":"This project was to improve on my javascript fundamentals",
+    "description":"This practice was to improve on my eventlisteners. ",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/Color-Changer-Project/",
     "repo":"https://github.com/norfkorean/Color-Changer-Project"
@@ -270,7 +282,7 @@ export default [{
     "id": 31,
     "img": "https://imgur.com/AeeTiRz.png",
     "name": "Personal Portfolio 1",
-    "description":"This was my first time trying to create portfolio",
+    "description":"This was my first time trying to create a portfolio",
     "type":"html",
     "live": "https://norfkorean.github.io/Personal-Portfolio-Project/",
     "repo":"https://github.com/norfkorean/Personal-Portfolio-Project"
@@ -297,7 +309,7 @@ export default [{
     "id": 34,
     "img": "https://imgur.com/CUNKXlw.png",
     "name": "Product Landing page",
-    "description":"This was part of the FreeCodeCamp html/css projects.",
+    "description":"This was part of the FreeCodeCamp html/css projects.I did this to improve my html/css skill.",
     "type":"html",
     "live": "https://norfkorean.github.io/product-landing-page-project/",
     "repo":"https://github.com/norfkorean/product-landing-page-project"
@@ -306,7 +318,7 @@ export default [{
     "id": 35,
     "img": "https://imgur.com/K8iBtIO.png",
     "name": "My Tribute Page",
-    "description":"This was part of the FreeCodeCamp html/css projects.",
+    "description":"This was part of the FreeCodeCamp html/css projects.I did this to improve my html/css skill.",
     "type":"html",
     "live": "https://norfkorean.github.io/my-tribute-page-web-project/",
     "repo":"https://github.com/norfkorean/my-tribute-page-web-project"
@@ -319,6 +331,4 @@ export default [{
     "type":"html practice",
     "live": "https://norfkorean.github.io/Our-Reviews-Project/",
     "repo":"https://github.com/norfkorean/odin-recipes"
-}
-
-]
+}]
