@@ -14,7 +14,7 @@ export default function Projects(props) {
                 <p><b>Category:</b> {props.type} </p>
                 <div className="links-container">
                     <div className="live-container">
-                        <a href={props.live}>Live</a>
+                        <a href={props.live} target="_blank">Live</a>
                         <img src="https://img.icons8.com/ios/344/web.png" className="live-logo"/>
                     </div>
                     <div className="source-container">

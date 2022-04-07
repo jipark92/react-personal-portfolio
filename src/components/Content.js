@@ -145,9 +145,7 @@ export default function Content() {
         }
     })
 
-
     const [showDisplay, setShowDisplay] = React.useState(showAll)
-
 
     return (
         <div className="content-container">
