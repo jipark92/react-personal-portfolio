@@ -36,14 +36,13 @@ select {
 }
 
 .project-container {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   gap: 0.2rem;
 }
 
 .projects {
-  border: 1px solid black;
+  border: 3px double black;
   width: 250px;
 }
 
