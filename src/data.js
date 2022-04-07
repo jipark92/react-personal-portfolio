@@ -223,7 +223,6 @@ export default [{
     "live": "https://norfkorean.github.io/Our-Reviews-Project/",
     "repo":"https://github.com/norfkorean/Our-Reviews-Project"
 },
-//
 {
     "id": 25,
     "img": "https://imgur.com/sENiJDB.png",
@@ -325,10 +324,11 @@ export default [{
 },
 {
     "id": 36,
-    "img": "na",
+    "img": "",
     "name": "Odin Recipe",
     "description":"This was my very first HTML page I made when first learning to code",
     "type":"html practice",
-    "live": "https://norfkorean.github.io/Our-Reviews-Project/",
+    "live": "",
     "repo":"https://github.com/norfkorean/odin-recipes"
-}]
+}
+]
