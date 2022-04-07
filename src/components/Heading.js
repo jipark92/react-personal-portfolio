@@ -3,7 +3,7 @@ import React from 'react'
 export default function Heading() {
     return (
         <header className="title-container">
-            <h3>project showcase</h3>
+            <h1>Javascript Practices and Projects</h1>
         </header>
     )
 }

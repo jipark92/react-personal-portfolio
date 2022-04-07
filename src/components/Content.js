@@ -10,6 +10,7 @@ export default function Content() {
                 img={projectData.img}
                 name={projectData.name}
                 description={projectData.description}
+                type={projectData.type}
                 live={projectData.live}
                 repo={projectData.repo}
             />
@@ -24,6 +25,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -37,6 +41,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -50,6 +57,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -63,6 +73,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -76,6 +89,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -89,6 +105,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -102,6 +121,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -115,6 +137,9 @@ export default function Content() {
                     img={projectData.img}
                     name={projectData.name}
                     description={projectData.description}
+                    type={projectData.type}
+                    live={projectData.live}
+                    repo={projectData.repo}
                 />
             )
         }
@@ -129,14 +154,14 @@ export default function Content() {
             <div className="option-container">
                 <select>
                     <option onClick={()=>{setShowDisplay(showAll)}}>All</option>
-                    <option onClick={()=>{setShowDisplay(showJsApiProjects)}}>Javascript API</option>
-                    <option onClick={()=>{setShowDisplay(showJavascript)}}>Javascript Projects</option>
-                    <option onClick={()=>{setShowDisplay(showJavascriptPractices)}}>Javascript Practices</option>
-                    <option onClick={()=>{setShowDisplay(showReactApiProjects)}}>React API</option>
-                    <option onClick={()=>{setShowDisplay(showReact)}}>React Projects</option>
-                    <option onClick={()=>{setShowDisplay(showReactPractices)}}>React Practices</option>
                     <option onClick={()=>{setShowDisplay(showHtmlProjects)}}>HTML Projects</option>
                     <option onClick={()=>{setShowDisplay(showHtmlPractices)}}>HTML/Css Practices</option>
+                    <option onClick={()=>{setShowDisplay(showJsApiProjects)}}>Javascript API</option>
+                    <option onClick={()=>{setShowDisplay(showJavascriptPractices)}}>Javascript Practices</option>
+                    <option onClick={()=>{setShowDisplay(showJavascript)}}>Javascript Projects</option>
+                    <option onClick={()=>{setShowDisplay(showReactApiProjects)}}>React API</option>
+                    <option onClick={()=>{setShowDisplay(showReactPractices)}}>React Practices</option>
+                    <option onClick={()=>{setShowDisplay(showReact)}}>React Projects</option>
                 </select>
             </div>
             <div className="project-container">
