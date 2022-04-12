@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Projects from './Projects'
 import projectDatas from '../data'
 
-export default function Content() {
+export default function All() {
     const showAll = projectDatas.map((projectData)=>{
         return (
             <Projects 
@@ -145,26 +145,30 @@ export default function Content() {
         }
     })
 
-    const [showDisplay, setShowDisplay] = React.useState(showAll)
+    const [showDisplay, setShowDisplay] = useState(showAll)
+
 
     return (
         <div className="content-container">
-            <div className="option-container">
-                <select>
-                    <option onClick={()=>{setShowDisplay(showAll)}}>All</option>
-                    <option onClick={()=>{setShowDisplay(showHtmlProjects)}}>HTML Projects</option>
-                    <option onClick={()=>{setShowDisplay(showHtmlPractices)}}>HTML/Css Practices</option>
-                    <option onClick={()=>{setShowDisplay(showJsApiProjects)}}>Javascript API</option>
-                    <option onClick={()=>{setShowDisplay(showJavascriptPractices)}}>Javascript Practices</option>
-                    <option onClick={()=>{setShowDisplay(showJavascript)}}>Javascript Projects</option>
-                    <option onClick={()=>{setShowDisplay(showReactApiProjects)}}>React API</option>
-                    <option onClick={()=>{setShowDisplay(showReactPractices)}}>React Practices</option>
-                    <option onClick={()=>{setShowDisplay(showReact)}}>React Projects</option>
-                </select>
-            </div>
             <div className="project-container">
                 {showDisplay}
             </div>
         </div>
     )
 }
+
+
+
+{/* <div className="option-container">
+<select className='select-container'>
+    <option onClick={()=>{setShowDisplay(showAll)}}>All</option>
+    <option onClick={()=>{setShowDisplay(showHtmlProjects)}}>HTML Projects</option>
+    <option onClick={()=>{setShowDisplay(showHtmlPractices)}}>HTML/Css Practices</option>
+    <option onClick={()=>{setShowDisplay(showJsApiProjects)}}>Javascript API</option>
+    <option onClick={()=>{setShowDisplay(showJavascriptPractices)}}>Javascript Practices</option>
+    <option onClick={()=>{setShowDisplay(showJavascript)}}>Javascript Projects</option>
+    <option onClick={()=>{setShowDisplay(showReactApiProjects)}}>React API</option>
+    <option onClick={()=>{setShowDisplay(showReactPractices)}}>React Practices</option>
+    <option onClick={()=>{setShowDisplay(showReact)}}>React Projects</option>
+</select>
+</div> */}

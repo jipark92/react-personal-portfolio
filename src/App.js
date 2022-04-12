@@ -1,14 +1,10 @@
 import React from 'react'
-import Heading from './components/Heading'
-import Content from './components/Content'
-import Footer from './components/Footer'
+import RouteSwitch from './RouteSwitch'
 
 export default function App() {
   return (
     <div className="main-container">
-      <Heading />
-      <Content />
-      <Footer />
+      <RouteSwitch/>
     </div>
   )
 }

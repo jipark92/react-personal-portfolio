@@ -21,7 +21,7 @@ export default [{
     "img": "https://imgur.com/JrLE6K2.png",
     "name": "Meme Generator",
     "description":"Meme Generator so yo can make your own funny Memes! Duh!",
-    "type":"react api",
+    "type":"react practice",
     "live": "https://jipark-react-memegenerator.netlify.app/",
     "repo":"https://github.com/norfkorean/react-memegenerator-project"
 },
@@ -324,11 +324,38 @@ export default [{
 },
 {
     "id": 36,
-    "img": "",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kqT6XFsG2BTW22Y4st2-KAHaHa%26pid%3DApi&f=1",
     "name": "Odin Recipe",
     "description":"This was my very first HTML page I made when first learning to code",
     "type":"html practice",
     "live": "",
     "repo":"https://github.com/norfkorean/odin-recipes"
+},
+{
+    "id": 37,
+    "img": "https://imgur.com/IPHj16U.png",
+    "name": "Memory Card Game",
+    "description":"This was my 2nd Reactjs Project! Fun but very challenging game logic.",
+    "type":"react",
+    "live": "https://jipark-react-memorycard.netlify.app/",
+    "repo":"https://github.com/norfkorean/react-memorycard-project"
+},
+{
+    "id": 38,
+    "img": "https://imgur.com/RPksTH3.png",
+    "name": "Pokedex API",
+    "description":"Its a PokeDex! Search your original first generation pokemons!",
+    "type":"javascript api",
+    "live": "https://jipark-js-pokedexapi.netlify.app/",
+    "repo":"https://github.com/norfkorean/js-pokedex-api"
+},
+{
+    "id": 39,
+    "img": "https://imgur.com/hBbnxxR.png",
+    "name": "Webstore",
+    "description":"Webstore built with react BrowserRouter, Routes,Route",
+    "type":"react",
+    "live": "https://jipark-react-shoppingcart.netlify.app/",
+    "repo":"https://github.com/norfkorean/react-shoppingcart-project"
 }
 ]
