@@ -57,8 +57,8 @@ export default function HtmlCss() {
 
     return (
         <div className="content-container">
+            <h3>Filters: </h3>
             <div className='buttons-container'>
-                <p>Filters: </p>
                 <button onClick={()=>{setShowHtmlCss(showAllHtmlCss)}}>Show All HTML/CSS</button>
                 <button onClick={()=>{setShowHtmlCss(showHtmlCssPractices)}}>HTML/CSS Practices</button>
                 <button onClick={()=>{setShowHtmlCss(showHtmlCssProjects)}}>HTML/CSS Projects</button>
