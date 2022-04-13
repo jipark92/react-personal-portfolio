@@ -66,6 +66,11 @@ export default function HtmlCss() {
             <div className="project-container">
                 {showHtmlCss}
             </div>
+            <div className='up-down-container'>
+                {/* <button onClick={pageUp}>&#8679;</button>
+                <p className='page-number'>{pageNumber}</p>
+                <button onClick={pageDown}>&#8681;</button> */}
+            </div>
         </div>
     )
 }

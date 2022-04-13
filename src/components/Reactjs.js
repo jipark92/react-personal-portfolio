@@ -65,6 +65,10 @@ export default function Reactjs() {
             <div className="project-container">
                 {showReact}
             </div>
+            <div className='up-down-container'>
+                <button>&#8679;</button>
+                <button>&#8681;</button>
+            </div>
         </div>
     )
 }

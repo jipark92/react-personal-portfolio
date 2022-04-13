@@ -82,6 +82,10 @@ export default function JavaScript() {
             <div className="project-container">
                 {showJavaScript}
             </div>
+            <div className='up-down-container'>
+                <button>&#8679;</button>
+                <button>&#8681;</button>
+            </div>
         </div>
     )
 }
