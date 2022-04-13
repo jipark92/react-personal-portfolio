@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main-container {
@@ -9,8 +12,8 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  max-width: 100vw;
-  background-color: gray;
+  width: 100vw;
+  background-color: white;
   /* border: 5px solid black; */
 }
 
@@ -19,8 +22,20 @@
   align-items: center;
   overflow-x: scroll;
   overflow: hidden;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   height: 55%;
+}
+
+.slide{
+  /* border: 5px solid black; */
+  background-color: rgb(44, 155, 224);
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid white; */
 }
 
 .about-me-container {
@@ -30,24 +45,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid white;
+  border: 5px solid black;
 }
 
 .about-me {
-  border: 5px solid black;
-}
-
-.slide{
-  border: 5px solid black;
-  background-color: rgb(44, 155, 224);
-  min-width: 100%;
+  /* border: 5px solid black; */
   height: 100%;
+  width: 75%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name-container {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.social-container{
+  border: 1px solid white;
+  display: flex;
+  height: 10%;
   justify-content: center;
   align-items: center;
-  border: 5px solid white;
+  gap: 1rem;
+}
 
+.social-container img {
+  height: 45px;
 }
 
 .title-container {
@@ -65,7 +95,7 @@ nav {
 }
 
 .title-container ul {
-  /* padding: 1rem; */
+  padding: 0.5rem;
   list-style: none;
   display: flex;
   gap: 1rem;
@@ -76,10 +106,14 @@ nav {
   text-align: center;
   background-color: white;
   color: black;
-  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   border-radius: 15px;
 }
 
+a{
+  text-decoration: none;
+}
 .filters-container {
   display: flex;
   /* border: 1px solid black; */
@@ -98,15 +132,32 @@ nav {
   /* transform: scale(1.2); */
 }
 
+.title-select {
+  /* border: 1px solid white; */
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .slide-btn {
   /* border: 1px solid blue; */
+  background-color:rgb(44, 155, 224) ;
+  border-bottom: 3px solid white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  padding: 1rem;
+
 }
 
 .slide-btn button {
   font-size: 1.2rem;
+  border: 3px solid white;
+  background: none;
+  padding: 5px;
+
 }
 
 .buttons-container{
@@ -141,14 +192,14 @@ nav {
 h3 {
   color: black;
   background-color: gray;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   background-color :rgb(44, 155, 224);
 }
 
 .content-container{
   width: 100%;
-  height: 100%;
+  height: 85%;
   color: black;
   display: flex;
   flex-direction: column;
@@ -194,26 +245,26 @@ h3 {
   width: 750px;
   overflow-y: scroll;
   overflow: hidden;
-  height: 33vh;
+  height: 31vh;
   /* margin-top: 0.2rem; */
 }
 
 .projects {
   overflow-y: scroll;
-  /* border: 2px solid black; */
+  border: 4px solid wheat;
   width: 30%;
-  height: 100%;
+  height: 390px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-e;
   background-color: white;
 }
 
 .footer-container{ 
-  /* border: 1px solid black; */
+  border-top: 3px solid white;
   height: 5%;
   text-align: center;
-  background: gray;
+  /* background: gray; */
 }
 
 img {
@@ -234,12 +285,8 @@ img {
   font-size: 0.9rem;
 }
 
-.name-container {
-  height: 25px;
-}
-
 .detail-container{ 
-  height:125px;
+  height:100px;
   display: flex;
   justify-content: center;
   align-items: center;
