@@ -72,8 +72,8 @@ export default function JavaScript() {
 
     return (
         <div className="content-container">
+            <h3>Filters:</h3>
             <div className='buttons-container'>
-                <p>Filters: </p>
                 <button onClick={()=>{setShowJavaScript(showAllJavaScript)}}>All Javascript</button>
                 <button onClick={()=>{setShowJavaScript(showJavaScriptPratcies)}}>Javascript Practices</button>
                 <button onClick={()=>{setShowJavaScript(showJavaScriptApi)}}>Javascript API</button>

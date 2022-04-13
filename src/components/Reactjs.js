@@ -56,8 +56,8 @@ export default function Reactjs() {
 
     return (
         <div className="content-container">
+            <h3>Filters:</h3>
             <div className='buttons-container'>
-                <p>Filters: </p>
                 <button onClick={()=>{setShowReact(showAllReact)}}>Show All React</button>
                 <button onClick={()=>{setShowReact(showReactPractices)}}>React Practices</button>
                 <button onClick={()=>{setShowReact(showReactProjects)}}>React Projects</button>

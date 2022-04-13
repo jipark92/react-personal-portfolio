@@ -14,8 +14,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
-  
+  background-color: lightskyblue;
+}
+
+nav {
+  text-align: center;
+  color: black;
 }
 
 .title-container ul {
@@ -23,7 +27,7 @@
   list-style: none;
   display: flex;
   gap: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .title-container li {
@@ -31,10 +35,9 @@
   background-color: white;
   border: 1px solid black;
   color: black;
-  padding: 0.5rem;
+  padding: 0.3rem;
   border-radius: 15px;
   animation: transform 2s ease-in-out;
-  
 }
 
 .title-container li:hover {
@@ -54,7 +57,7 @@
   color: black;
   font-size: 1.2rem;
   padding: 1rem;
-  background-color: gray;
+  background-color: lightskyblue;
 }
 
 .buttons-container button {
@@ -62,6 +65,7 @@
   background-color: white;
   border-radius: 15px;
   padding: 0.2rem;
+  width: 175px;
 }
 
 h3 {
@@ -69,31 +73,33 @@ h3 {
   background-color: gray;
   width: 100%;
   text-align: center;
+  background-color : lightskyblue
 }
 
 .content-container{
   width: 100%;
   height: 100%;
-  overflow: auto;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid white; */
+  background-color: lightskyblue;
 }
 
 .project-container {
   display: flex;
-  background-color: gray;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.2rem;
+  width: 85%;
+  overflow-y: scroll;
+  height: 90vh;
 }
 
 .projects {
   border: 2px dotted black;
-  width: 250px;
-
+  width: 240px;
 }
 
 .footer-container{ 
@@ -153,7 +159,7 @@ img {
 }
 
 a { 
-  color: white;
+  color: black;
 }
 
 @media (max-width: 500px){
@@ -168,7 +174,6 @@ a {
   .buttons-container{
     width:100%;
     height:5%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,11 +183,15 @@ a {
     font-size: 1.2rem;
     padding: 1rem;
   }
+
   .project-container {
     display: flex;
-    background-color: gray;
+    background-color: lightskyblue;
     justify-content: center;
-    border: 1px solid white;
   }
-  
+
+  .projects {
+    border: 2px dotted black;
+    width: 300px;
+  }
 }

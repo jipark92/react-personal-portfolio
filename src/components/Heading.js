@@ -5,6 +5,7 @@ export default function Heading() {
     return (
         <header className="title-container">
             <nav>
+            <h1>Programming Languages</h1>
                 <ul>
                     <Link to='/'>
                         <li>ALL</li>
