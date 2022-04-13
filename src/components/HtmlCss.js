@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import Projects from './Projects'
 import projectDatas from '../data'
 
@@ -112,12 +112,15 @@ export default function HtmlCss() {
 
     return (
         <div className="content-container">
-            <h3>Filters:</h3>
-            <div className='buttons-container'>
-                <button onClick={all}>Show All HTML/CSS</button>
-                <button onClick={practices}>HTML/CSS Practices</button>
-                <button onClick={projects}>HTML/CSS Projects</button>
+            <div className='filters-container'>
+                <h3 className='filter-text'>Filters:</h3>
+                <div className='buttons-container'>
+                    <button onClick={all}>Show All HTML/CSS</button>
+                    <button onClick={practices}>HTML/CSS Practices</button>
+                    <button onClick={projects}>HTML/CSS Projects</button>
+                </div>
             </div>
+        
             <div className="project-container">
                 {showHtmlCss}
             </div>

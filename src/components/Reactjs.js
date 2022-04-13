@@ -100,11 +100,13 @@ export default function Reactjs() {
 
     return (
         <div className="content-container">
-            <h3>Filters:</h3>
-            <div className='buttons-container'>
-                <button onClick={all}>Show All React</button>
-                <button onClick={practices}>React Practices</button>
-                <button onClick={projects}>React Projects</button>
+            <div className='filters-container'>
+                <h3 className='filter-text'>Filters:</h3>
+                <div className='buttons-container'>
+                    <button onClick={all}>Show All React</button>
+                    <button onClick={practices}>React Practices</button>
+                    <button onClick={projects}>React Projects</button>
+                </div>
             </div>
             <div className="project-container">
                 {showReact}

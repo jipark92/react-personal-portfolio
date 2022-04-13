@@ -144,12 +144,14 @@ export default function JavaScript() {
 
     return (
         <div className="content-container">
-            <h3>Filters:</h3>
-            <div className='buttons-container'>
-                <button onClick={all}>All Javascript</button>
-                <button onClick={practices}>Javascript Practices</button>
-                <button onClick={api}>Javascript API</button>
-                <button onClick={projects}>Javascript Projects</button>
+            <div className='filters-container'>
+                <h3 className='filter-text'>Filters:</h3>
+                <div className='buttons-container'>
+                    <button onClick={all}>All Javascript</button>
+                    <button onClick={practices}>Javascript Practices</button>
+                    <button onClick={api}>Javascript API</button>
+                    <button onClick={projects}>Javascript Projects</button>
+                </div>
             </div>
             <div className="project-container">
                 {showJavaScript}
