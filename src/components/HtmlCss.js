@@ -2,8 +2,10 @@ import React, {useEffect, useState} from 'react'
 import Projects from './Projects'
 import projectDatas from '../data'
 
-
 export default function HtmlCss() {
+
+    const pageItems = document.querySelectorAll('.projects')
+
     const [pageNumber, setPageNumber] = useState(0)
 
     const showAllHtmlCss = projectDatas.map((projectData)=>{
@@ -57,8 +59,6 @@ export default function HtmlCss() {
 
     const [showHtmlCss, setShowHtmlCss] = useState(showAllHtmlCss)
 
-
-    
     const pageDown = () => {
         const pageItems = document.querySelectorAll('.projects')
         if (pageNumber === 0 ){
@@ -92,13 +92,31 @@ export default function HtmlCss() {
         }
     }
 
+    const all = () => {
+        pageItems[0].scrollIntoView()
+        setShowHtmlCss(showAllHtmlCss)
+        setPageNumber(0)
+    }
+
+    const practices = () =>{ 
+        pageItems[0].scrollIntoView()
+        setShowHtmlCss(showHtmlCssPractices)
+        setPageNumber(0)
+    }
+
+    const projects = () => {
+        pageItems[0].scrollIntoView()
+        setShowHtmlCss(showHtmlCssProjects)
+        setPageNumber(0)
+    }
+
     return (
         <div className="content-container">
             <h3>Filters:</h3>
             <div className='buttons-container'>
-                <button onClick={()=>{setShowHtmlCss(showAllHtmlCss)}}>Show All HTML/CSS</button>
-                <button onClick={()=>{setShowHtmlCss(showHtmlCssPractices)}}>HTML/CSS Practices</button>
-                <button onClick={()=>{setShowHtmlCss(showHtmlCssProjects)}}>HTML/CSS Projects</button>
+                <button onClick={all}>Show All HTML/CSS</button>
+                <button onClick={practices}>HTML/CSS Practices</button>
+                <button onClick={projects}>HTML/CSS Projects</button>
             </div>
             <div className="project-container">
                 {showHtmlCss}
