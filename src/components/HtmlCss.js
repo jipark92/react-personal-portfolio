@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Projects from './Projects'
 import projectDatas from '../data'
 
 
 export default function HtmlCss() {
+    const [pageNumber, setPageNumber] = useState(0)
 
     const showAllHtmlCss = projectDatas.map((projectData)=>{
         if (projectData.type ==="html" || projectData.type === "html practice"){
@@ -20,7 +21,7 @@ export default function HtmlCss() {
             )
         }
     })
-
+    
     const showHtmlCssPractices = projectDatas.map((projectData)=>{
         if (projectData.type === "html practice"){
             return (
@@ -33,6 +34,7 @@ export default function HtmlCss() {
                     live={projectData.live}
                     repo={projectData.repo}
                 />
+                
             )
         }
     })
@@ -55,6 +57,41 @@ export default function HtmlCss() {
 
     const [showHtmlCss, setShowHtmlCss] = useState(showAllHtmlCss)
 
+
+    
+    const pageDown = () => {
+        const pageItems = document.querySelectorAll('.projects')
+        if (pageNumber === 0 ){
+            pageItems[3].scrollIntoView()
+            setPageNumber(1)
+        } else if (pageNumber === 1) {
+            pageItems[6].scrollIntoView()
+            setPageNumber(2)
+        } else if (pageNumber === 2) {
+            pageItems[9].scrollIntoView()
+            setPageNumber(3)
+        } else if (pageNumber === 3) {
+            pageItems[12].scrollIntoView()
+            setPageNumber(4)
+        } 
+    }
+    const pageUp = () => {
+        const pageItems = document.querySelectorAll('.projects')
+        if (pageNumber === 1) {
+            pageItems[0].scrollIntoView()
+            setPageNumber(0)
+        } else if (pageNumber === 2){
+            pageItems[3].scrollIntoView()
+            setPageNumber(1)
+        } else if (pageNumber === 3){
+            pageItems[6].scrollIntoView()
+            setPageNumber(2)
+        } else if (pageNumber === 4){
+            pageItems[9].scrollIntoView()
+            setPageNumber(3)
+        }
+    }
+
     return (
         <div className="content-container">
             <h3>Filters:</h3>
@@ -67,9 +104,9 @@ export default function HtmlCss() {
                 {showHtmlCss}
             </div>
             <div className='up-down-container'>
-                {/* <button onClick={pageUp}>&#8679;</button>
+                <button onClick={pageUp}>&#8679;</button>
                 <p className='page-number'>{pageNumber}</p>
-                <button onClick={pageDown}>&#8681;</button> */}
+                <button onClick={pageDown}>&#8681;</button>
             </div>
         </div>
     )
