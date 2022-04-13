@@ -17,29 +17,37 @@
 .slide-container {
   display: flex;
   align-items: center;
-  /* overflow-x: scroll; */
+  overflow-x: scroll;
+  overflow: hidden;
   border: 5px solid red;
+  height: 55%;
 }
-
 
 .about-me-container {
   background-color: rgb(44, 155, 224);
-  width: 100%;
+  min-width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid white;
-
 }
 
 .about-me {
   border: 5px solid black;
-
 }
 
-.router-container{
+.slide{
   border: 5px solid black;
+  background-color: rgb(44, 155, 224);
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+
 }
 
 .title-container {
@@ -74,6 +82,7 @@ nav {
 
 .filters-container {
   display: flex;
+  /* border: 1px solid black; */
   justify-content: center;
   align-items: center;
 }
@@ -82,16 +91,27 @@ nav {
   /* border: 1px solid black; */
   width: 100px;
 }
+
 .title-container li:hover {
   background-color: black;
   color: white;
   /* transform: scale(1.2); */
 }
 
+.slide-btn {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.slide-btn button {
+  font-size: 1.2rem;
+}
+
 .buttons-container{
   /* border: 1px solid black; */
   width:100%;
-  height:5%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -132,7 +152,7 @@ h3 {
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(44, 155, 224);
 }
@@ -170,12 +190,12 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.1rem;
+  gap: 1rem;
   width: 750px;
   overflow-y: scroll;
   overflow: hidden;
   height: 33vh;
-  margin-top: 0.2rem;
+  /* margin-top: 0.2rem; */
 }
 
 .projects {
