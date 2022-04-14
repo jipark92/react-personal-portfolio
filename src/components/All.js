@@ -61,6 +61,7 @@ export default function All() {
             pageItems[39].scrollIntoView()
         }
     }
+
     const pageUp = () => {
         const pageItems = document.querySelectorAll('.projects')
         if (pageNumber === 1) {
@@ -105,6 +106,16 @@ export default function All() {
         }
     }
 
+    const colorPageNumber = () => {
+        if (pageNumber === 12) {
+            return <p Style="color:red">{pageNumber}</p>
+        } else if (pageNumber === 0 ){
+            return <p Style="color:rgb(15, 255, 175)">{pageNumber}</p>
+        } else {
+            return <p>{pageNumber}</p>
+        }
+    }
+
     return (
         <div className="content-container">
             <div className="project-container">
@@ -112,7 +123,9 @@ export default function All() {
             </div>
             <div className='up-down-container'>
                 <button onClick={pageUp}>&#8679;</button>
-                <p className='page-number'>{pageNumber}</p>
+                <div className='page-number'>
+                    {colorPageNumber()}
+                </div>
                 <button onClick={pageDown}>&#8681;</button>
             </div>
         </div>
