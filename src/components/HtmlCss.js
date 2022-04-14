@@ -120,7 +120,6 @@ export default function HtmlCss() {
                     <button onClick={projects}>HTML/CSS Projects</button>
                 </div>
             </div>
-        
             <div className="project-container">
                 {showHtmlCss}
             </div>
