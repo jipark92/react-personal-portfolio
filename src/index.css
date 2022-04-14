@@ -7,6 +7,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -19,6 +20,10 @@
   background-position: center;
   background-size: cover;
   /* border: 5px solid black; */
+}
+
+h2:hover,h3:hover,img:hover,a:hover,h1:hover,li:hover,p:hover,.buttons-container button:hover{
+  color: white;
 }
 
 .slide-container {
@@ -55,7 +60,7 @@
 
 .about-me {
   /* border: 5px solid black; */
-  height: 100%;
+  height: 85%;
   width: 75%;
   display: flex;
   flex-direction: column;
@@ -65,24 +70,27 @@
 
 .name-container {
   /* border: 1px solid white; */
+  height:25%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  
 }
 
 .social-container{
+  width: 100%;
   /* border: 1px solid white; */
   display: flex;
   height: 10%;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
 }
 
 .social-container img {
-  height: 45px;
+  height: 65px;
 }
 
 .social-container img:hover {
@@ -114,8 +122,9 @@ nav {
 
 .title-container li {
   text-align: center;
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  border: 1px solid white;
+  /* color: black; */
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   border-radius: 15px;
@@ -133,23 +142,23 @@ a{
 
 .filter-text {
   /* border: 1px solid black; */
-  width: 100px;
+  width: 60px;
 }
 
 .title-container li:hover {
-  background-color: black;
-  color: white;
-  /* transform: scale(1.2); */
+  /* background-color: black;
+  color: white; */
+  transform: scale(1.2);
 }
 
 .title-select {
   /* border: 1px solid white; */
+  font-size: 1.4rem;
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .slide-btn {
   /* border: 1px solid blue; */
@@ -159,8 +168,7 @@ a{
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  opacity: 80%;
-
+  /* opacity: 80%; */
 }
 
 .slide-btn button {
@@ -170,11 +178,13 @@ a{
   background: none;
 }
 
-.slide-btn button:hover {
- transform: scale(1.2);
- color: white;
+.slide-btn button:nth-child(1):hover {
+  color:red;
 }
 
+.next-slide:hover {
+  color:rgb(15, 255, 175);
+}
 
 .buttons-container{
   /* border: 1px solid black; */
@@ -192,18 +202,22 @@ a{
 }
 
 .buttons-container button {
-  font-size: 1.05rem;
-  background-color: white;
+  font-size: 1.1rem;
+  /* background-color: white; */
+  border: 1px solid white;
+  background: none;
   border-radius: 15px;
   padding: 0.1rem;
-  border: none;
   cursor: pointer;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
 }
 
 .buttons-container button:hover {
-  background-color: black;
-  color: white;
-  /* transform: scale(1.1); */
+  /* background-color: black;
+  color: white; */
+  transform: scale(1.1);
 }
 
 h3 {
@@ -268,13 +282,13 @@ h3 {
 
 .projects {
   overflow-y: scroll;
-  border: 4px solid white;
+  border: 2px solid white;
   width: 30%;
   height: 390px;
   display: flex;
   flex-direction: column;
   justify-content: space-e;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .footer-container{ 
@@ -283,7 +297,6 @@ h3 {
   text-align: center;
   /* background: gray; */
   opacity: 80%;
-
 }
 
 img {
@@ -296,7 +309,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .info-container {
@@ -309,7 +322,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .github-logo {
@@ -340,7 +352,23 @@ a {
   color: black;
 }
 
-/* @media (max-width: 500px){
+.page-number {
+  color :white;
+  font-size: 1.8rem;
+}
+
+.contact-container {
+  /* border: 5px solid white; */
+  height: 75%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (max-width: 500px){
   .title-container ul {
     list-style: none;
     display: flex;
@@ -372,4 +400,4 @@ a {
     border: 2px dotted black;
     width: 300px;
   }
-} */
+}
