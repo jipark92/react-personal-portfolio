@@ -10,6 +10,28 @@ export default function Contacts() {
                 <a href="https://www.tiktok.com/@norfkorean" target="_blank"rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/344/tiktok.png" alt="TikTok" className='social-logos'/></a>
                 <a href="https://instagram.com/bboyji_" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/344/instagram-new.png" alt="Instagram" className='social-logos'/></a>
             </div>
+            <div className='information-container'>
+                <div className='phone'>
+                    <img src="https://img.icons8.com/ios-filled/344/phone.png"/>
+                    <p>555-555-555</p>
+                </div>
+
+                <div className='address-container'>
+                    <div className='-addresslogo-container'>
+                        <img src="https://img.icons8.com/ios-filled/344/address--v1.png"/>
+                    </div>
+                    <div className='address'>
+                        <p>1234 Test Street</p>
+                        <p>city, state, 12345</p>
+                    </div>
+                </div>
+
+                <div className='email-container'>
+                <br></br>
+                    <img src="https://img.icons8.com/ios-filled/344/email-open.png"/>
+                    <p>example@testing.com</p>
+                </div>
+            </div>
         </div>
     )
 }
