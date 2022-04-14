@@ -2,7 +2,7 @@ export default [{
     "id": 0,
     "img": "https://imgur.com/8EePucn.png",
     "name": "Tic Tac Toe",
-    "description":"Classic Tic Tac Toe Game built on vanilla javascript. Play against one of your friends!",
+    "description":"For this Javascript project, I was able to submit players name/marker in objects, take turns playing, figure out the logic to tic tac toe ",
     "type":"javascript",
     "live": "https://norfkorean.github.io/JS-Tic-Tac-Toe-Project/",
     "repo":"https://github.com/norfkorean/JS-Tic-Tac-Toe-Project"
@@ -11,7 +11,7 @@ export default [{
     "id": 1,
     "img": "https://imgur.com/nH4r7mP.png",
     "name": "To-Do List",
-    "description":"A To-Do List so you can make a list of tasks that needs to be done. Write short descrioption, set due date, and check for priority!",
+    "description":"For this Javascript project, I was able to associate tasks and object/array and change their values when a user set date,change priority, add details and change title of the task.",
     "type":"javascript",
     "live": "https://jiparktodolistproject.netlify.app/",
     "repo":"https://github.com/norfkorean/JS-ToDo-List-Project"
@@ -20,7 +20,7 @@ export default [{
     "id": 2,
     "img": "https://imgur.com/JrLE6K2.png",
     "name": "Meme Generator",
-    "description":"Meme Generator so yo can make your own funny Memes! Duh!",
+    "description":"For this React Practice, I was able to get my hands on showing text from input box and grab data from a data file. ",
     "type":"react practice",
     "live": "https://jipark-react-memegenerator.netlify.app/",
     "repo":"https://github.com/norfkorean/react-memegenerator-project"
@@ -29,7 +29,7 @@ export default [{
     "id": 3,
     "img": "https://imgur.com/0Uxfoas.png",
     "name": "CV Application",
-    "description":"A simple resume creator. Write your really bad resume template on here ;)",
+    "description":"For this React Project, I was able to send value of what is written in the input box to show up on another page by sending props over to different components",
     "type":"react",
     "live": "https://jipark-cvapplication.netlify.app/",
     "repo":"https://github.com/norfkorean/react-cvapplication-project"
@@ -38,7 +38,7 @@ export default [{
     "id": 4,
     "img": "https://imgur.com/TbRdRKZ.png",
     "name": "My Travel Journal",
-    "description":"This was to practice my react skills I learned in my first week of learning Reactjs!",
+    "description":"For this React Practice, I was able to practice using array methods like map and use props to display all items. ",
     "type":"react practice",
     "live": "https://jipark-react-traveljournal.netlify.app/",
     "repo":"https://github.com/norfkorean/react-traveljournal-project"
@@ -47,7 +47,7 @@ export default [{
     "id": 5,
     "img": "https://imgur.com/JV22aHA.png",
     "name": "My First React Webpages",
-    "description":"This was to practice my react skills I learned in my first week of learning Reactjs!",
+    "description":"For this React Practice, I was able to get my hands on coding in react JSX format.",
     "type":"react practice",
     "live": "https://jipark-reactfirstwebpage.netlify.app",
     "repo":"https://github.com/norfkorean/react-firstwebpage"
@@ -56,7 +56,7 @@ export default [{
     "id": 6,
     "img": "https://imgur.com/X4PWU6F.png",
     "name": "Battleship Game",
-    "description":"This was my final vanilla javascript project I had to finish before moving onto Reactjs! Super challenging coding a bot that plays against you!",
+    "description":"This was my final plain Javascript project. For this, I was able to create a computer that plays against you. The computer has no difficulty and it is completely random. ",
     "type":"javascript",
     "live": "https://jipark-battleshipgame.netlify.app/",
     "repo":"https://github.com/norfkorean/JS-BattleShip-Project"
@@ -65,7 +65,7 @@ export default [{
     "id": 7,
     "img": "https://imgur.com/ib3qWIA.png",
     "name": "Calculator",
-    "description":"This was my 3rd javascript project! I was very proud to complete this project!",
+    "description":"This was my 3rd Javascript Project. For this, I was able to store value in one variable then one in another so I can operate two numbers together.",
     "type":"javascript",
     "live": "https://jipark-calculator.netlify.app",
     "repo":"https://github.com/norfkorean/Calculator-Project"
@@ -74,7 +74,7 @@ export default [{
     "id": 8,
     "img": "https://imgur.com/wKUgDLr.png",
     "name": "Weather App",
-    "description":"This was my very first javascript API project! I loved making this one!",
+    "description":"This was my 1st API project. For this, I was able to grab api data from openwather and have the data show up on display when a user searches for a city,state,country.",
     "type":"javascript api",
     "live": "https://jipark-weatherapp.netlify.app/",
     "repo":"https://github.com/norfkorean/JS-WeatherApp-Project"
@@ -83,7 +83,7 @@ export default [{
     "id": 9,
     "img": "https://imgur.com/zXWeme0.png",
     "name": "API Random Dog & Cat Gif Generator",
-    "description":"This was my very first javascript API project! I loved making this one!",
+    "description":"For this first Javascript API practice, I was able to grab random pictures from giphy api and show it on display.",
     "type":"javascript api",
     "live": "https://jipark-apipractice.netlify.app/",
     "repo":"https://github.com/norfkorean/API-Practice"
@@ -92,7 +92,7 @@ export default [{
     "id": 10,
     "img": "https://imgur.com/qAfu5lU.png",
     "name": "Image Slider",
-    "description":"This was a image slider mini project I wanted to do to see if I can accomplish it.",
+    "description":"This was a image slider mini project I wanted to do to see if I can accomplish it by sliding images across.",
     "type":"javascript practice",
     "live": "https://jipark-imageslider.netlify.app/",
     "repo":"https://github.com/norfkorean/JS-Image-Slider"
@@ -101,7 +101,7 @@ export default [{
     "id": 11,
     "img": "https://imgur.com/YyB5Czt.png",
     "name": "Restaurant Page ",
-    "description":"This was a project to make a all-in-one webpage by using tabs to load separate pages",
+    "description":"For this Javascript Project, I was able to navigate to different parts of the webpage without having to create more HTML files. All code was done in Javascript.",
     "type":"javascript",
     "live": "https://jiparkrestaurantpageproject.netlify.app/",
     "repo":"https://github.com/norfkorean/JS-RestaurantPage-Project"
@@ -110,7 +110,7 @@ export default [{
     "id": 12,
     "img": "https://imgur.com/X1d0cAp.png",
     "name": "Library",
-    "description":"This project was to create a library where you can store in books in the array",
+    "description":"This project was to create a library where a user can store in books in a array",
     "type":"javascript",
     "live": "https://norfkorean.github.io/JS-Library-Project/",
     "repo":"https://github.com/norfkorean/JS-Library-Project"
@@ -119,7 +119,7 @@ export default [{
     "id": 13,
     "img": "https://imgur.com/5Bof1NA.png",
     "name": "Rock Paper Sciscors",
-    "description":"This was my very first javascript ever. Oh my gosh what a journey it has been since.",
+    "description":"This was my very first Javascript ever. I used many if/else statements for this and get my hands on coding my first project.Oh my gosh what a journey it has been since.",
     "type":"javascript",
     "live": "https://norfkorean.github.io/Odin-RockPaperSiccors-Project/",
     "repo":"https://github.com/norfkorean/Odin-RockPaperSiccors-Project"
@@ -128,7 +128,7 @@ export default [{
     "id": 14,
     "img": "https://imgur.com/WcL60sh.png",
     "name": "Etch-A-Sketch",
-    "description":"This was my 2nd javascript project ever! This one was so fun to work on.",
+    "description":"This was my 2nd Javascript Project. This was to practice heavy DOM manipulation. There is no code in the HTML file.",
     "type":"javascript",
     "live": "https://norfkorean.github.io/Etch-a-Sketch/",
     "repo":"https://github.com/norfkorean/Etch-a-Sketch"
@@ -137,7 +137,7 @@ export default [{
     "id": 15,
     "img": "https://imgur.com/PY0fjGk.png",
     "name": "Grocery List",
-    "description":"This was part of my javascript practices, but one of the harder ones to accomplish",
+    "description":"This was part of my javascript practices, but one of the harder ones to accomplish. I was able to make a list of grocery items to show when user submits any text.",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/JS-Grocery-List-Project/",
     "repo":"https://github.com/norfkorean/JS-Grocery-List-Project"
@@ -146,7 +146,7 @@ export default [{
     "id": 16,
     "img": "https://imgur.com/QpGxLvl.png",
     "name": "Random Lorem",
-    "description":"This was one of the corny javascript practice, but any practice improves your skill in coding",
+    "description":"This javascript practice was to help me understand how to code in javascript.",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/JS-Random-Lorem-Project/",
     "repo":"https://github.com/norfkorean/JS-Random-Lorem-Project"
@@ -164,7 +164,7 @@ export default [{
     "id": 18,
     "img": "https://imgur.com/4jgl9pT.png",
     "name": "Tab Switch",
-    "description":"This was one of the javascript practice to work on tab functions",
+    "description":"This was a javascript practice to work on tab functions",
     "type":"javascript practice",
     "live": "https://norfkorean.github.io/Tab-Switch-Project/",
     "repo":"https://github.com/norfkorean/Tab-Switch-Project"
@@ -173,7 +173,7 @@ export default [{
     "id": 19,
     "img": "https://imgur.com/qYueci4.png",
     "name": "Food Menu Filter",
-    "description":"This was one of the javascript practice to work on filtering but I realized I did this in the wrong way.",
+    "description":"This was a javascript practice to work on filtering.",
     "type":"html practice",
     "live": "https://norfkorean.github.io/Food-Menu-Project/",
     "repo":"https://github.com/norfkorean/Food-Menu-Project"
@@ -182,7 +182,7 @@ export default [{
     "id": 20,
     "img": "https://imgur.com/dyVRKo2.png",
     "name": "Show Answer & Question FAQ page",
-    "description":"This Project was to show that I can make text show and hide when clicking a button",
+    "description":"This javascript practice was to show that I can make text show and hide when clicking a button",
     "type":"html practice",
     "live": "https://norfkorean.github.io/FAQ-box-expansion-project/",
     "repo":"https://github.com/norfkorean/FAQ-box-expansion-project"
@@ -299,7 +299,7 @@ export default [{
     "id": 33,
     "img": "https://imgur.com/cEFvMNB.png",
     "name": "Survey Form",
-    "description":"This was part of the FreeCodeCamp html/css projects. It was to work on form pages.",
+    "description":"This html/css project was to work on form pages.",
     "type":"html practice",
     "live": "https://norfkorean.github.io/Survey-Form-Project/",
     "repo":"https://github.com/norfkorean/Survey-Form-Project"
@@ -308,7 +308,7 @@ export default [{
     "id": 34,
     "img": "https://imgur.com/CUNKXlw.png",
     "name": "Product Landing page",
-    "description":"This was part of the FreeCodeCamp html/css projects.I did this to improve my html/css skill.",
+    "description":"This html/css project was to improve my skills on plain html/css.",
     "type":"html",
     "live": "https://norfkorean.github.io/product-landing-page-project/",
     "repo":"https://github.com/norfkorean/product-landing-page-project"
@@ -317,7 +317,7 @@ export default [{
     "id": 35,
     "img": "https://imgur.com/K8iBtIO.png",
     "name": "My Tribute Page",
-    "description":"This was part of the FreeCodeCamp html/css projects.I did this to improve my html/css skill.",
+    "description":"This html/css project was to improve my skills on plain html/css.",
     "type":"html",
     "live": "https://norfkorean.github.io/my-tribute-page-web-project/",
     "repo":"https://github.com/norfkorean/my-tribute-page-web-project"
@@ -335,7 +335,7 @@ export default [{
     "id": 37,
     "img": "https://imgur.com/IPHj16U.png",
     "name": "Memory Card Game",
-    "description":"This was my 2nd Reactjs Project! Fun but very challenging game logic.",
+    "description":"This was my 2nd Reactjs Project! Fun but very challenging game logic. I had to use react hooks like useState/useEffect for this project. I was able to make the cards shuffle on every click.",
     "type":"react",
     "live": "https://jipark-react-memorycard.netlify.app/",
     "repo":"https://github.com/norfkorean/react-memorycard-project"
@@ -344,7 +344,7 @@ export default [{
     "id": 38,
     "img": "https://imgur.com/RPksTH3.png",
     "name": "Pokedex API",
-    "description":"Its a PokeDex! Search your original first generation pokemons!",
+    "description":"For this 2nd Javascript API project.I wanted to play with another API, so I made this popular project!",
     "type":"javascript api",
     "live": "https://jipark-js-pokedexapi.netlify.app/",
     "repo":"https://github.com/norfkorean/js-pokedex-api"
