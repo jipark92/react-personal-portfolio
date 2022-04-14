@@ -11,13 +11,13 @@ export default function Heading() {
                         <li>ALL</li>
                     </Link>
                     <Link to='/htmlcss'>
-                        <li>HTML/CSS</li>
+                        <li>Html/Css</li>
                     </Link>
                     <Link to='/javascript'>
                         <li>Javascript</li>
                     </Link>
                     <Link to='/react'>
-                        <li>React</li>
+                        <li>Reactjs</li>
                     </Link>
                 </ul>
             </nav>
