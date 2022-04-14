@@ -61,10 +61,10 @@ export default function Reactjs() {
     const pageDown = () => {
         const pageItems = document.querySelectorAll('.projects')
         if (pageNumber === 0 ){
-            pageItems[3].scrollIntoView()
+            pageItems[4].scrollIntoView()
             setPageNumber(1)
         } else if (pageNumber === 1) {
-            pageItems[6].scrollIntoView()
+            pageItems[8].scrollIntoView()
             setPageNumber(2)
         }  
     }
@@ -74,7 +74,7 @@ export default function Reactjs() {
             pageItems[0].scrollIntoView()
             setPageNumber(0)
         } else if (pageNumber === 2){
-            pageItems[3].scrollIntoView()
+            pageItems[4].scrollIntoView()
             setPageNumber(1)
         } 
     }
@@ -94,8 +94,15 @@ export default function Reactjs() {
     const projects = () => {
         pageItems[0].scrollIntoView()
         setShowReact(showReactProjects)
-
         setPageNumber(0)
+    }
+
+    const colorPageNumber = () => {
+        if (pageNumber === 0 ){
+            return <p Style="color:rgb(15, 255, 175)">{pageNumber}</p>
+        } else {
+            return <p>{pageNumber}</p>
+        }
     }
 
     return (
@@ -113,7 +120,7 @@ export default function Reactjs() {
             </div>
             <div className='up-down-container'>
                 <button onClick={pageUp}>&#8679;</button>
-                <p className='page-number'>{pageNumber}</p>
+                <p className='page-number'>{colorPageNumber()}</p>
                 <button onClick={pageDown}>&#8681;</button>
             </div>
         </div>

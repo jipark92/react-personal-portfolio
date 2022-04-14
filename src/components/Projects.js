@@ -7,13 +7,22 @@ export default function Projects(props) {
                 <img src={props.img} />
             </div>
             <div className="info-container">
-                <div className='name-container'> 
+                <div className='proj-name'> 
                     <p><b>Project:</b> <u>{props.name}</u></p>
                 </div>
+
+                <br></br>
+
                 <div className="detail-container">
                     <p><b>Detail:</b> {props.description}</p>
                 </div>
+
+                <br></br>
+
                 <p><b>Category:</b> {props.type} </p>
+
+                <br></br>
+
                 <div className="links-container">
                     <div className="live-container">
                         <a href={props.live} target="_blank">Live</a>

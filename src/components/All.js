@@ -22,44 +22,33 @@ export default function All() {
     const pageDown = () => {
         const pageItems = document.querySelectorAll('.projects')
         if (pageNumber === 0 ){
-            pageItems[3].scrollIntoView()
+            pageItems[4].scrollIntoView()
             setPageNumber(1)
         } else if (pageNumber === 1) {
-            pageItems[6].scrollIntoView()
+            pageItems[8].scrollIntoView()
             setPageNumber(2)
         } else if (pageNumber === 2) {
-            pageItems[9].scrollIntoView()
+            pageItems[12].scrollIntoView()
             setPageNumber(3)
         } else if (pageNumber === 3) {
-            pageItems[12].scrollIntoView()
+            pageItems[16].scrollIntoView()
             setPageNumber(4)
         } else if (pageNumber === 4) {
-            pageItems[15].scrollIntoView()
+            pageItems[20].scrollIntoView()
             setPageNumber(5)
         } else if (pageNumber === 5) {
-            pageItems[18].scrollIntoView()
+            pageItems[24].scrollIntoView()
             setPageNumber(6)
         } else if (pageNumber === 6) {
-            pageItems[21].scrollIntoView()
+            pageItems[28].scrollIntoView()
             setPageNumber(7)
         } else if (pageNumber === 7) {
-            pageItems[24].scrollIntoView()
+            pageItems[32].scrollIntoView()
             setPageNumber(8)
         } else if (pageNumber === 8) {
-            pageItems[27].scrollIntoView()
-            setPageNumber(9)
-        } else if (pageNumber === 9) {
-            pageItems[30].scrollIntoView()
-            setPageNumber(10)
-        } else if (pageNumber === 10) {
-            pageItems[33].scrollIntoView()
-            setPageNumber(11)
-        } else if (pageNumber === 11) {
             pageItems[36].scrollIntoView()
-            setPageNumber(12)
-        } else if (pageNumber === 12) {
-            pageItems[39].scrollIntoView()
-        }
+            setPageNumber(9)
+        } 
     }
 
     const pageUp = () => {
@@ -68,46 +57,34 @@ export default function All() {
             pageItems[0].scrollIntoView()
             setPageNumber(0)
         } else if (pageNumber === 2){
-            pageItems[3].scrollIntoView()
+            pageItems[4].scrollIntoView()
             setPageNumber(1)
         } else if (pageNumber === 3){
-            pageItems[6].scrollIntoView()
+            pageItems[8].scrollIntoView()
             setPageNumber(2)
         } else if (pageNumber === 4){
-            pageItems[9].scrollIntoView()
+            pageItems[12].scrollIntoView()
             setPageNumber(3)
         } else if (pageNumber === 5){
-            pageItems[12].scrollIntoView()
+            pageItems[16].scrollIntoView()
             setPageNumber(4)
         } else if (pageNumber === 6){
-            pageItems[15].scrollIntoView()
+            pageItems[20].scrollIntoView()
             setPageNumber(5)
         } else if (pageNumber === 7){
-            pageItems[18].scrollIntoView()
+            pageItems[24].scrollIntoView()
             setPageNumber(6)
         } else if (pageNumber === 8){
-            pageItems[21].scrollIntoView()
+            pageItems[28].scrollIntoView()
             setPageNumber(7)
         } else if (pageNumber === 9){
-            pageItems[24].scrollIntoView()
+            pageItems[32].scrollIntoView()
             setPageNumber(8)
-        } else if (pageNumber === 10){
-            pageItems[27].scrollIntoView()
-            setPageNumber(9)
-        } else if (pageNumber === 11){
-            pageItems[30].scrollIntoView()
-            setPageNumber(10)
-        } else if (pageNumber === 12){
-            pageItems[33].scrollIntoView()
-            setPageNumber(11)
-        } else if (pageNumber === 13){
-            pageItems[36].scrollIntoView()
-            setPageNumber(12)
         }
     }
 
     const colorPageNumber = () => {
-        if (pageNumber === 12) {
+        if (pageNumber === 9) {
             return <p Style="color:red">{pageNumber}</p>
         } else if (pageNumber === 0 ){
             return <p Style="color:rgb(15, 255, 175)">{pageNumber}</p>

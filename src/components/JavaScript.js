@@ -77,22 +77,19 @@ export default function JavaScript() {
     const pageDown = () => {
         const pageItems = document.querySelectorAll('.projects')
         if (pageNumber === 0 ){
-            pageItems[3].scrollIntoView()
+            pageItems[4].scrollIntoView()
             setPageNumber(1)
         } else if (pageNumber === 1) {
-            pageItems[6].scrollIntoView()
+            pageItems[8].scrollIntoView()
             setPageNumber(2)
         } else if (pageNumber === 2) {
-            pageItems[9].scrollIntoView()
+            pageItems[12].scrollIntoView()
             setPageNumber(3)
         } else if (pageNumber === 3) {
-            pageItems[12].scrollIntoView()
+            pageItems[16].scrollIntoView()
             setPageNumber(4)
         } else if (pageNumber === 4) {
-            pageItems[15].scrollIntoView()
-            setPageNumber(5)
-        } else if (pageNumber === 5) {
-            pageItems[18].scrollIntoView()
+            pageItems[20].scrollIntoView()
         } 
     }
     const pageUp = () => {
@@ -101,20 +98,14 @@ export default function JavaScript() {
             pageItems[0].scrollIntoView()
             setPageNumber(0)
         } else if (pageNumber === 2){
-            pageItems[3].scrollIntoView()
+            pageItems[4].scrollIntoView()
             setPageNumber(1)
         } else if (pageNumber === 3){
-            pageItems[6].scrollIntoView()
+            pageItems[8].scrollIntoView()
             setPageNumber(2)
         } else if (pageNumber === 4){
-            pageItems[9].scrollIntoView()
-            setPageNumber(3)
-        } else if (pageNumber === 5) {
             pageItems[12].scrollIntoView()
-            setPageNumber(4)
-        } else if (pageNumber === 6) {
-            pageItems[18].scrollIntoView()
-            setPageNumber(5)
+            setPageNumber(3)
         } 
     }
 
@@ -142,6 +133,14 @@ export default function JavaScript() {
         setPageNumber(0)
     }
 
+    const colorPageNumber = () => {
+        if (pageNumber === 0 ){
+            return <p Style="color:rgb(15, 255, 175)">{pageNumber}</p>
+        } else {
+            return <p>{pageNumber}</p>
+        }
+    }
+
     return (
         <div className="content-container">
             <div className='filters-container'>
@@ -158,7 +157,7 @@ export default function JavaScript() {
             </div>
             <div className='up-down-container'>
                 <button onClick={pageUp}>&#8679;</button>
-                <p className='page-number'>{pageNumber}</p>
+                <p className='page-number'>{colorPageNumber()}</p>
                 <button onClick={pageDown}>&#8681;</button>
             </div>
         </div>
